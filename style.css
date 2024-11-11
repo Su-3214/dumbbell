@@ -112,7 +112,7 @@ h1, h2 {
 
 .textbox {
     width: 345px; 
-    height: 30px;
+    height: 20px;
     padding: 5px; 
     border-radius: 4px; 
     border: 1px solid #ccc; 
@@ -192,4 +192,36 @@ h1, h2 {
     margin-left: 30px;
 }
 
+.update-button {
+    background-color: rgb(84, 84, 252);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+.delete-button {
+    background-color: rgb(251, 65, 65);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dotted-line {
+    border: none;
+    border-top: 2px dotted #000; /* 点線の太さを2pxに変更 */
+    width: 100%;
+    border-top-style: dashed;
+    border-top-width: 2px;
+    border-top-color: #000;
+    border-top: 2px dashed #000;
+}
+
+.total {
+    text-align: right;
+    margin-right: 10px; /* 右側に少し余白を追加 */
+    color: #666;
+}
