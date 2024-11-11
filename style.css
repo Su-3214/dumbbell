@@ -225,3 +225,22 @@ h1, h2 {
     margin-right: 10px; /* 右側に少し余白を追加 */
     color: #666;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.total-container {
+    text-align: right;
+}
+
