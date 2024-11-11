@@ -23,7 +23,7 @@
             <img src="./img/chocolate.png" alt="画像" width="75px" height="100px">
             <div class="details">
                 <div>【チョコレート味３㎏】</div>
-                <div class="price">6,990円</div>
+                <div class="price">6,990</div>
             </div>
         </div>
 
