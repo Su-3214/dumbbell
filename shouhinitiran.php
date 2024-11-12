@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>支払確認</title>
+    <title>商品一覧</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,24 +18,51 @@
             width="30" height="30" >
         </div>
         <br>
-        <div class="item">
-            <span class="dot">・</span>
-            <img src="./img/chocolate.png" alt="画像" width="75px" height="100px">
-            <div class="details">
+        <!-- 1段目 -->
+        <div class="shouhin-container">
+            <div class="shouhin">
+                <img src="./img/chocolate.png" alt="画像" width="117px" height="135px">
                 <div>【チョコレート味３㎏】</div>
-                <div class="price">6,990</div>
+                <div class="price">6,990円</div>
+                <button class="cartbutton" type="button">カートに入れる</button>
+            </div>
+            <div class="shouhin">
+                <img src="./img/matcha.png" alt="画像" width="117px" height="135px">
+                <div>【濃い抹茶味３㎏】</div>
+                <div class="price">6,990円</div>
+                <button class="cartbutton" type="button">カートに入れる</button>
             </div>
         </div>
-
-        <div class="counter-container">
-            <button onclick="decrease()">－</button>
-            <span id="number">0</span>
-            <button onclick="increase()">＋</button>
+        <!-- 2段目 -->
+        <div class="shouhin-container">
+            <div class="shouhin2">
+                <img src="./img/plain.png" alt="画像" width="117px" height="135px">
+                <div>【プレーン味３㎏】</div>
+                <div class="price">6,780円</div>
+                <button class="cartbutton" type="button">カートに入れる</button>
+            </div>
+            <div class="shouhin2">
+                <img src="./img/darkpeach.png" alt="画像" width="117px" height="135px">
+                <div>【濃いピーチ味３㎏】</div>
+                <div class="price">7,480円</div>
+                <button class="cartbutton" type="button">カートに入れる</button>
+            </div>
         </div>
-
-        <button class="back" type="button">戻る</button>
-        <button class="touroku" type="button">この内容で登録する</button>
+        <!-- 3段目 -->
+        <div class="shouhin-container">
+            <div class="shouhin3">
+                <img src="./img/kiwi.png" alt="画像" width="117px" height="135px">
+                <div>【キウイ味３㎏】</div>
+                <div class="price">6,980円</div>
+                <button class="cartbutton" type="button">カートに入れる</button>
+            </div>
+            <div class="shouhin3">
+                <img src="./img/sweetpotato.png" alt="画像" width="117px" height="135px">
+                <div>【さつまいも味３㎏】</div>
+                <div class="price">6,980円</div>
+                <button class="cartbutton" type="button">カートに入れる</button>
+            </div>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
