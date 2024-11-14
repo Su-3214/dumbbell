@@ -23,5 +23,6 @@
     <div class="label-cotainer2">
         <input type="text" name="pass" class="textbox"><br>
     </div>
+    <input type="checkbox" name="example" value="1">パスワードを表示する
 </body>
 </html>
