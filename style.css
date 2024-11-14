@@ -18,6 +18,7 @@ body {
     max-width: 400px;
 }
 
+
 .close-container {
     display: flex;
     justify-content: flex-end;
@@ -26,6 +27,30 @@ body {
 
 .close-container input[type="image"] {
     margin-right: 10px;
+
+}.container2 {
+    background-color: #DFDCD3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 400px;
+}
+
+.close-button {
+    margin-right: 10px;
+    margin-left: 350px;
+}
+
+.close-button input[type="button"] {
+    background-color: #DFDCD3;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 40px;
+
 }
 
 h1, h2 {
@@ -255,8 +280,16 @@ h1, h2 {
     margin: 10px 0;
 }
 
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+
 .right-align {
     text-align: right;
+    margin-left: 20px;
 }
 
 .left-align {
@@ -265,5 +298,15 @@ h1, h2 {
 
 .total-container {
     text-align: right;
+}
+
+.min {
+    height: 20px;
+    width: 53px;
+}
+
+.max {
+    height: 20px;
+    width: 53px;
 }
 
