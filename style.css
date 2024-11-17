@@ -18,16 +18,6 @@ body {
     max-width: 400px;
 }
 
-.close-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.close-container input[type="image"] {
-    margin-right: 10px;
-}
-
 h1, h2 {
     text-align: center;
 }
@@ -255,8 +245,16 @@ h1, h2 {
     margin: 10px 0;
 }
 
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+
 .right-align {
     text-align: right;
+    margin-left: 20px;
 }
 
 .left-align {
@@ -266,4 +264,15 @@ h1, h2 {
 .total-container {
     text-align: right;
 }
+
+.min {
+    height: 20px;
+    width: 53px;
+}
+
+.max {
+    height: 20px;
+    width: 53px;
+}
+
 
