@@ -18,7 +18,6 @@ body {
     max-width: 400px;
 }
 
-
 .close-container {
     display: flex;
     justify-content: flex-end;
@@ -56,14 +55,6 @@ h1, h2 {
     text-align: center;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-  border-top: 6px double #000;
-  border-bottom: 6px double #000;
-}
-
 .header h3 {
     margin: 0;
 }
@@ -77,6 +68,8 @@ h1, h2 {
 .header input[type="image"] {
     margin-top:0px;  /* 画像を少し下に移動 */
 }
+
+
 
 .back {
     width: 90%;
