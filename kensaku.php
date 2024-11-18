@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="tozi">
-            ✖<br>
+        <div class="close-container">
+            <input type="image" src="./img/close.png" alt="画像ボタン" width="50" height="50">
+            <span>閉じる</span>
         </div>
-        閉じる
     </div>
 </body>
 </html>
+
