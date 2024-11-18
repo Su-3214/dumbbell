@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="header h3">
             THE・脳筋
                 <input type="button" type="submit" value="購入履歴">
                 <input type="button" type="submit" value="ログアウト">
@@ -17,6 +18,7 @@
                 <input type="image" src="./img/cart.png" alt="画像ボタン" 
                 width="30" height="30" >
             </div>
+        </div>
     </div>
 </body>
 </html>
