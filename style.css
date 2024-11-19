@@ -16,7 +16,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
     max-width: 400px;
-    flex-direction: column;
 }
 
 .close-container {
@@ -329,4 +328,32 @@ h1, h2 {
     width: 53px;
 }
 
+.kekka {
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* 横方向の中央揃え */
+}
 
+.youso{
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.azi{
+    color: #666;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.kensuu{
+    color: #666;
+    margin-left: 10px;
+}
+
+.page{
+    color: #666;
+    justify-content: center;
+    text-decoration: underline #09aef5;
+}
