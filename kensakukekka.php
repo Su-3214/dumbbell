@@ -17,6 +17,7 @@
                 <input type="image" src="./img/cart.png" alt="画像ボタン" 
                 width="30" height="30" >
             </div>
+        </div>
     </div>
 </body>
 </html>
