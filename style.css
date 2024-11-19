@@ -19,25 +19,24 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
     max-width: 400px;
-    overflow-y: auto; /* コンテンツが多くなるとスクロール可能に */
+    overflow-y: auto; 
 }
 
-/* 透明なスクロールバー */
 ::-webkit-scrollbar {
     width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent; /* 背景を透明に */
+    background: transparent; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.5); /* 半透明のつまみ */
+    background: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.8); /* ホバー時に透明度を上げる */
+    background: rgba(0, 0, 0, 0.8); 
 }
 
 
