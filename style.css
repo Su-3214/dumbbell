@@ -4,19 +4,42 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     background-color: #f0f0f0;
+    overflow-y: scroll; 
 }
 
 .container {
+    width: 375px;  
+    height: 667px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
     max-width: 400px;
+    overflow-y: auto; /* コンテンツが多くなるとスクロール可能に */
 }
+
+/* 透明なスクロールバー */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* 背景を透明に */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5); /* 半透明のつまみ */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.8); /* ホバー時に透明度を上げる */
+}
+
 
 .close-container {
     display: flex;
