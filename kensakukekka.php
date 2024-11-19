@@ -9,7 +9,6 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="header h3">
             THE・脳筋
                 <input type="button" type="submit" value="購入履歴">
                 <input type="button" type="submit" value="ログアウト">

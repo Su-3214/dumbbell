@@ -52,6 +52,14 @@ body {
     font-size: 40px;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  border-top: 6px double #000;
+  border-bottom: 6px double #000;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -60,11 +68,14 @@ h1, h2 {
     margin: 0;
 }
 
-.header input[type="button"], .header input[type="image"] {
+.header input[type="button"] {
     margin-left: 10px;
     background-color: #ffffff;
 }
-
+.header input[type="image"] {
+    margin-left: 10px;
+    background-color: #ffffff;
+}
 /* 画像の位置を微調整する部分 */
 .header input[type="image"] {
     margin-top:0px;  /* 画像を少し下に移動 */
