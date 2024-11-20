@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>送り先確認</title>
+    <title>検索</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container2">
         <div class="close-container">
-            <input type="image" src="./img/close.png" alt="画像ボタン" width="50" height="50">
-            <span>閉じる</span>
+            <div class="batu">
+                <button type="submit" name="batu"><b>×</b></button>
+            </div>
+            <span><b>閉じる</b></span>
         </div>
+        
     </div>
 </body>
 </html>

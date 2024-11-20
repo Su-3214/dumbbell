@@ -11,26 +11,26 @@ body {
 }
 
 .container {
-    width: 500px;  
+    width: 420px;  
     height: 667px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
-    max-width: 400px;
+    max-width: 420px;
     overflow-y: auto; 
 }
 
 .container2 {
-    width: 375px;  
+    width: 420px;  
     height: 667px;
-    background-color: #ac984f;
+    background-color: #e2d39d;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
-    max-width: 400px;
+    max-width: 420px;
     overflow-y: auto; 
 }
 
@@ -51,30 +51,36 @@ body {
     background: rgba(0, 0, 0, 0.8); 
 }
 
-
 .close-container {
+    position: absolute;  /* 絶対位置に設定 */
+    top: 20px;  /* 上部に少し余白を追加 */
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;  /* ボタンとテキストを縦に並べる */
+    align-items: center;  /* 中央揃え */
 }
 
-.close-container input[type="image"] {
-    margin-right: 10px;
-}
-
-.close-button {
-    margin-right: 10px;
+.batu button {
     margin-left: 350px;
+    font-size: 24px;  /* ボタンのフォントサイズを大きく設定 */
+    padding: 15px 30px;  /* ボタンのサイズを大きくする */
+    background-color: #e2d39d;  /* ボタンの背景色を設定 */
+    border: none;
+    border-radius: 50%;  /* 丸いボタンにする */
+    color: #000000;  /* ボタンの文字色を背景色に合わせる */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;  /* スムーズなホバーエフェクト */
 }
 
-.close-button input[type="button"] {
-    background-color: #DFDCD3;
-    color: #000000;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 40px;
+.batu button:hover {
+    background-color: #b6a44d;  /* ホバー時に背景色を変更 */
+    transform: scale(1.1);  /* ホバー時にボタンを少し大きくする */
+}
+
+span {
+    font-size: 18px;
+    color: #000000;  /* テキスト色を白に設定 */
+    margin-top: 10px;  /* ボタンと文字の間に余白を追加 */
+    margin-left: 350px;
 }
 
 .header {
@@ -250,7 +256,7 @@ h1, h2 {
 
 .shouhin {
     text-align: center;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .shouhin2 {
@@ -262,6 +268,43 @@ h1, h2 {
     text-align: center;
     margin-left: 13px;
 }
+
+/* 商品画像がホバー時に拡大するエフェクト */
+.shouhin img {
+    transition: transform 0.3s ease;  /* 変形のスムーズなアニメーション */
+}
+
+.shouhin img:hover {
+    transform: scale(1.1);  /* 画像を10%拡大 */
+}
+
+.shouhin2 img:hover {
+    transform: scale(1.1);  /* 同様に拡大 */
+}
+
+.shouhin3 img:hover {
+    transform: scale(1.1);  /* 同様に拡大 */
+}
+
+.shouhin img, .shouhin2 img, .shouhin3 img {
+    border-radius: 8px;  /* 商品画像の角を丸くする */
+}
+
+/* ボタンと画像ボタンの共通設定 */
+.header input[type="button"], .header input[type="image"] {
+    transition: transform 0.3s ease;  /* 変形のスムーズなアニメーション */
+}
+
+/* 購入履歴、ログアウトボタンがホバーされた時の動き */
+.header input[type="button"]:hover {
+    transform: scale(1.1);  /* ボタンを拡大 */
+}
+
+/* 画像ボタンがホバーされた時の動き */
+.header input[type="image"]:hover {
+    transform: scale(1.1);  /* 画像ボタンを拡大 */
+}
+
 
 .price {
     color: red;
