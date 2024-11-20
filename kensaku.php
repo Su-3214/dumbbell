@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container2">
         <div class="close-container">
             <input type="image" src="./img/close.png" alt="画像ボタン" width="50" height="50">
             <span>閉じる</span>

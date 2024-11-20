@@ -11,9 +11,21 @@ body {
 }
 
 .container {
-    width: 375px;  
+    width: 500px;  
     height: 667px;
     background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 400px;
+    overflow-y: auto; 
+}
+
+.container2 {
+    width: 375px;  
+    height: 667px;
+    background-color: #ac984f;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,14 +60,6 @@ body {
 
 .close-container input[type="image"] {
     margin-right: 10px;
-}
-.container2 {
-    background-color: #DFDCD3;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 95%;
-    max-width: 400px;
 }
 
 .close-button {
