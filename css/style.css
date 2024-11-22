@@ -34,6 +34,18 @@ body {
     overflow-y: auto; 
 }
 
+.container3 {
+    width: 420px;  
+    height: 667px;
+    background-color: #F3EEBC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 420px;
+    overflow-y: auto; 
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -543,3 +555,24 @@ h1, h2 {
     cursor: pointer;
     border: 2px solid #000000; 
 }
+
+/* 管理者ログイン画面　*/
+.loginmessage{
+    margin-left: 15px;
+}
+
+/*　管理者トップ　*/
+.Sitiran{
+    margin-right: 10px;
+    background-color: #ffffff;   
+}
+
+.Kitiran{
+    background-color: #ffffff; 
+}
+
+.skid{
+    width: 300px;
+    height: 30px;
+}
+
