@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>会員変更</title>
+    <title>商品変更</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -13,33 +13,29 @@
                 <input type="button" type="submit" value="ログアウト">
         </div>
     
-        会員ID：XXXXX<br><br>
+        商品ID：XXXXX<br><br>
 
-        会員名：XXXXX<br><br>
+        商品名：【XXXXX】<br><br>
 
-        メール：XXXXX@XXXXX<br><br>
+        価格：XXXXX円<br><br>
 
         <hr class="dotted-line">
 
         <div class="label-container5">
-            <label for="kaiinid">会員ID</label>
-            <input type="text" name="kaiinid" class="skid">
+            <label for="shouhinid" class="shouhinid">商品ID</label>
+            <input type="text" name="shouhinid" class="skid">
         </div>
         <div class="label-container5">
-            <label for="kaiinmei">会員名</label>
-            <input type="text" name="kaiinname" class="skid">
+            <label for="shouhinname" class="shouhinname">商品名</label>
+            <input type="text" name="shouhinname" class="skid">
         </div>
         <div class="label-container5">
-            <label for="mail">メール</label>
-            <input type="text" name="mail" class="skid">
+            <label for="kakaku" class="kakaku">価格</label>
+            <input type="text" name="kakaku" class="skid">
         </div>
         <div class="label-container5">
-            <label for="Pass" class="Pass">Pass</label>
-            <input type="text" name="pass" class="skid">
-        </div>
-        <div class="label-container5">
-            <label for="jusyo" class="jusyo">住所</label>
-            <input type="text" name="jusyo" class="skid">
+            <label for="zaiko" class="zaiko">在庫</label>
+            <input type="text" name="zaiko" class="skid">
         </div>
     <br>
 

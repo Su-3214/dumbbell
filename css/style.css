@@ -593,3 +593,47 @@ h1, h2 {
     margin-right: 12px;
 }
 
+.tbutton{
+    margin-left: 65px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.shbutton{
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.modoru{
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+/*　商品変更　*/
+.shouhinid{
+    margin-left: 3px;
+}
+
+.shouhinname{
+    margin-left: 3px;
+}
+
+.kakaku{
+    margin-left: 20px;
+}
+
+.zaiko{
+    margin-left: 20px;
+}
+
+
+
