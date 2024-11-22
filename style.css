@@ -4,32 +4,83 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     background-color: #f0f0f0;
+    overflow-y: scroll; 
 }
 
 .container {
+    width: 420px;  
+    height: 667px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 95%;
-    max-width: 400px;
+    max-width: 420px;
+    overflow-y: auto; 
+}
+
+.container2 {
+    width: 420px;  
+    height: 667px;
+    background-color: #DFDCD3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 420px;
+    overflow-y: auto; 
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.8); 
 }
 
 .close-container {
+    position: absolute;  /* 絶対位置に設定 */
+    top: 20px;  /* 上部に少し余白を追加 */
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;  /* ボタンとテキストを縦に並べる */
+    align-items: center;  /* 中央揃え */
 }
 
-.close-container input[type="image"] {
-    margin-right: 10px;
+.batu button {
+    margin-left: 350px;
+    font-size: 24px;  /* ボタンのフォントサイズを大きく設定 */
+    padding: 15px 30px;  /* ボタンのサイズを大きくする */
+    background-color: #DFDCD3;  /* ボタンの背景色を設定 */
+    border: none;
+    border-radius: 50%;  /* 丸いボタンにする */
+    color: #000000;  /* ボタンの文字色を背景色に合わせる */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;  /* スムーズなホバーエフェクト */
 }
 
-h1, h2 {
-    text-align: center;
+.batu button:hover {
+    background-color: #c6c5c1;  /* ホバー時に背景色を変更 */
+    transform: scale(1.1);  /* ホバー時にボタンを少し大きくする */
+}
+
+span {
+    font-size: 18px;
+    color: #000000;  /* テキスト色を白に設定 */
+    margin-top: 10px;  /* ボタンと文字の間に余白を追加 */
+    margin-left: 350px;
 }
 
 .header {
@@ -40,19 +91,28 @@ h1, h2 {
   border-bottom: 6px double #000;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 .header h3 {
     margin: 0;
 }
 
-.header input[type="button"], .header input[type="image"] {
+.header input[type="button"] {
     margin-left: 10px;
     background-color: #ffffff;
 }
-
+.header input[type="image"] {
+    margin-left: 10px;
+    background-color: #ffffff;
+}
 /* 画像の位置を微調整する部分 */
 .header input[type="image"] {
     margin-top:0px;  /* 画像を少し下に移動 */
 }
+
+
 
 .back {
     width: 90%;
@@ -80,7 +140,35 @@ h1, h2 {
     border: 2px solid #000000; 
 }
 
+.login {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 20px;
+    background-color: #484847;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #000000; 
+}
+
+
+
 .top {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #484847;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #000000; 
+}
+
+.tologin {
     width: 90%;
     padding: 10px;
     margin-top: 15px;
@@ -168,7 +256,7 @@ h1, h2 {
 
 .shouhin {
     text-align: center;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .shouhin2 {
@@ -180,6 +268,43 @@ h1, h2 {
     text-align: center;
     margin-left: 13px;
 }
+
+/* 商品画像がホバー時に拡大するエフェクト */
+.shouhin img {
+    transition: transform 0.3s ease;  /* 変形のスムーズなアニメーション */
+}
+
+.shouhin img:hover {
+    transform: scale(1.1);  /* 画像を10%拡大 */
+}
+
+.shouhin2 img:hover {
+    transform: scale(1.1);  /* 同様に拡大 */
+}
+
+.shouhin3 img:hover {
+    transform: scale(1.1);  /* 同様に拡大 */
+}
+
+.shouhin img, .shouhin2 img, .shouhin3 img {
+    border-radius: 8px;  /* 商品画像の角を丸くする */
+}
+
+/* ボタンと画像ボタンの共通設定 */
+.header input[type="button"], .header input[type="image"] {
+    transition: transform 0.3s ease;  /* 変形のスムーズなアニメーション */
+}
+
+/* 購入履歴、ログアウトボタンがホバーされた時の動き */
+.header input[type="button"]:hover {
+    transform: scale(1.1);  /* ボタンを拡大 */
+}
+
+/* 画像ボタンがホバーされた時の動き */
+.header input[type="image"]:hover {
+    transform: scale(1.1);  /* 画像ボタンを拡大 */
+}
+
 
 .price {
     color: red;
@@ -255,8 +380,16 @@ h1, h2 {
     margin: 10px 0;
 }
 
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+
 .right-align {
     text-align: right;
+    margin-left: 20px;
 }
 
 .left-align {
@@ -267,3 +400,115 @@ h1, h2 {
     text-align: right;
 }
 
+.min {
+    height: 20px;
+    width: 53px;
+}
+
+.max {
+    height: 20px;
+    width: 53px;
+}
+
+.kekka {
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* 横方向の中央揃え */
+}
+
+.youso{
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+
+.azi{
+    color: #666;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.kensuu{
+    color: #666;
+    margin-left: 10px;
+}
+
+.page{
+    color: #666;
+    justify-content: center;
+    text-decoration: underline #09aef5;
+}
+
+.kounyuurireki{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.krireki{
+    font-size: 30px;
+}
+
+.toppage{
+    background-color: #ffffff;
+}
+
+.key{
+    margin-left: 20px;
+}
+
+.kakakutai{
+    margin-top: 27px;
+    margin-left: 35px;
+}
+
+.mi{
+    margin-top: 27px;
+    margin-left: 50px;
+}
+
+.keyword{
+    margin-left: 70px;
+    width: 200px;
+    height: 25px;
+}
+
+.max{
+    margin-top: 20px;
+    margin-left: 86px;
+    width: 70px;
+    height: 25px;
+}
+
+.kara{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.min{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 70px;
+    height: 25px;
+}
+
+.taste{
+    margin-top: auto;
+    margin-right: 13px;
+    width: 200px;
+    height: 25px;
+}
+
+/*　検索ボタン　*/
+.search{
+    width: 90%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(241, 86, 86);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #000000; 
+}
