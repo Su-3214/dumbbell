@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品詳細</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
@@ -21,7 +21,7 @@
         <div class="akamozi">
             ★THE・脳筋おすすめの接種タイミング★
         </div>
-        <img src="./img/sessyutaimingu.png" width="150px" height="140px" class="sessyugazou">
+        <img src="../img/sessyutaimingu.png" width="150px" height="140px" class="sessyugazou">
         <br><br>
         <button class="incart" type="button">カートに入れる</button>
         <button class="top" type="button">お買い物に戻る</button>
