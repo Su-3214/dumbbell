@@ -233,6 +233,12 @@ h1, h2 {
 
 }
 
+.label-container5 {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 10px;  
+}
+
 .textbox {
     width: 345px; 
     height: 20px;
@@ -574,5 +580,16 @@ h1, h2 {
 .skid{
     width: 300px;
     height: 30px;
+    margin: 10px auto;
+}
+
+.Pass{
+    margin-left: 5px;
+    margin-right: 9px;
+}
+
+.jusyo{
+    margin-left: 7px;
+    margin-right: 12px;
 }
 
