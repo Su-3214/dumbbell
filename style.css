@@ -512,3 +512,34 @@ h1, h2 {
     cursor: pointer;
     border: 2px solid #000000; 
 }
+
+/*　商品詳細の文章 */
+.bun{
+    margin-left: 35px;
+}
+
+/* 商品詳細の赤文字部分 */
+.akamozi{
+    margin-left: 58px;
+    color: red;
+}
+
+/* 商品詳細画像　*/
+.sessyugazou{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+/*　お買い物に戻るボタン　*/
+.incart {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #484847;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #000000; 
+}
