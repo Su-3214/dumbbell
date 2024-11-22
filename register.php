@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";  // MySQLサーバー名
-$username = "root";        // MySQLユーザー名
+$username = "root";       // MySQLユーザー名
 $password = "";            // MySQLパスワード
 $dbname = "your_database"; // データベース名
 

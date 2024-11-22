@@ -9,6 +9,16 @@
 </head>
 
 <body>
+<?php
+/*if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // ボタンがクリックされたとき、画面遷移を行う
+    header("Location: localhost/test/tourokukanryou"); // 遷移先のURLを指定
+    exit();
+}*/
+if (isset($_POST['add'])) {
+    header("Location: localhost/test/tourokukanryou"); // 遷移先のURLを指定
+}
+?>
     <div class="container">
         <h3>THE・脳筋</h3>
         <h3>新規会員登録</h3>
@@ -21,8 +31,8 @@
                 ※苗字と名前の間にスペースは不要です<br>
             </div>
         </div>
-        <!--ここからDB接続を行う-->
-        <form action="register.php" method="POST">
+        <!--ここからForm-->
+        <form action="tourokukanryou.php" method="POST">
             <div class="label-container">
                 メールアドレス<br>
             </div>
@@ -44,8 +54,8 @@
                 <input type="text" name="adress" class="textbox2"><br><br>
             </div>
 
-            <button class="back" type="button">戻る</button>
-            <button class="touroku" type="button">この内容で登録する</button>
+            <button type="button">戻る</button>
+            <button type="submit" name="add">この内容で登録する</button>
         </form>
 
     </div>
