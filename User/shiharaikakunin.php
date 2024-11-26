@@ -10,12 +10,12 @@
     <div class="container">
         <div class="header">
         THE・脳筋
-            <input type="button" type="submit" value="購入履歴">
-            <input type="button" type="submit" value="ログアウト">
+            <input type="button" type="submit" value="購入履歴" onclick="window.location.href='kounyuurireki.php'">
+            <input type="button" type="submit" value="ログアウト" onclick="window.location.href='login.php'">
             <input type="image" src="../img/button.png" alt="画像ボタン" 
-            width="30" height="30" >
+            width="30" height="30" onclick="window.location.href='kensaku.php'">
             <input type="image" src="../img/cart.png" alt="画像ボタン" 
-            width="30" height="30" >
+            width="30" height="30" onclick="window.location.href='shiharaikakunin.php'">
         </div>
         <br>
         <div class="item">
@@ -55,8 +55,8 @@
         </div>
     
         
-        <button class="back" type="button">戻る</button>
-        <button class="touroku" type="button">購入手続きへ進む</button>
+        <button class="back" type="button" onclick="window.location.href='shouhinitiran.php'">戻る</button>
+        <button class="touroku" type="button" onclick="window.location.href='okurisakikakunin.php'">購入手続きへ進む</button>
     </div>
     <script src="../js/script.js"></script>
 </body>

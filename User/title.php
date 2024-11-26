@@ -8,6 +8,6 @@
 </head>
 </head>
 <body>
-    <img src="../img/title.png" width="420px" height="667px">
+    <img src="../img/title.png" width="420px" height="667px" onclick="window.location.href='login.php'">
 </body>
 </html>

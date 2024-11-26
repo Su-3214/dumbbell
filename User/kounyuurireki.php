@@ -10,7 +10,7 @@
     <div class="container">
         <div class="kounyuurireki">
             <div class="krireki">購入履歴</div>
-            <button type="submit" name="top" class="toppage">トップページ</button>
+            <button type="submit" name="top" class="toppage" onclick="window.location.href='shouhinitiran.php'">トップページ</button>
         </div>
 
         <hr class="dotted-line">

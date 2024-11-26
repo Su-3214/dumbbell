@@ -40,9 +40,8 @@
         <div class="label-container4">
             <input type="text" name="adress" class="textbox2"><br><br>
         </div>
-
-        <button class="back" type="button">戻る</button>
-        <button class="touroku" type="button">この内容で登録する</button>
+        <button class="back" type="button" onclick="window.location.href='login.php'" >戻る</button>
+        <button class="touroku" type="button" onclick="window.location.href='tourokukanryou.php'" >この内容で登録する</button>
     </div>
 </body>
 </html>

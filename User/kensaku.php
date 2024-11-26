@@ -10,7 +10,7 @@
     <div class="container2">
         <div class="close-container">
             <div class="batu">
-                <button type="submit" name="batu"><b>×</b></button>
+                <button type="submit" name="batu" onclick="window.location.href='shouhinitiran.php'"><b>×</b></button>
             </div>
             <span><b>閉じる</b></span>
         </div><br><br><br><br><br><br>

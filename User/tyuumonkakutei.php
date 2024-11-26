@@ -18,7 +18,7 @@
         <br><br><br><br><br>
         <br><br><br><br><br>
 
-        <button class="top" type="button">トップページ</button>
+        <button class="top" type="button" onclick="window.location.href='shouhinitiran.php'">トップページ</button>
     </div>
 </body>
 </html>

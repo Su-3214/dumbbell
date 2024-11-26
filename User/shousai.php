@@ -24,7 +24,7 @@
         <img src="../img/sessyutaimingu.png" width="150px" height="140px" class="sessyugazou">
         <br><br>
         <button class="incart" type="button">カートに入れる</button>
-        <button class="top" type="button">お買い物に戻る</button>
+        <button class="top" type="button" onclick="window.location.href='shouhinitiran.php'">お買い物に戻る</button>
 </body>
 </html>
 

@@ -26,7 +26,7 @@
         </div>
         <input type="checkbox" name="example" value="0">パスワードを表示する
         
-        <button class="login" type="button">ログイン</button>
+        <button class="login" type="button" onclick="window.location.href='shouhinitiran.php'" >ログイン</button>
         
         <input type="checkbox" name="example2" value="1">ログインしたままにする
 

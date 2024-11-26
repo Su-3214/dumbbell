@@ -51,8 +51,8 @@
             <h3>ご到着予定：1週間以内</h3>
         </div>
 
-        <button class="back" type="button">戻る</button>
-        <button class="touroku" type="button">購入を完了する</button>
+        <button class="back" type="button" onclick="window.location.href='shiharaikakunin.php'">戻る</button>
+        <button class="touroku" type="button" onclick="window.location.href='tyuumonkakutei.php'">購入を完了する</button>
     </div>
 </body>
 </html>
