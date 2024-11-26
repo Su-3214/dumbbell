@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>検索結果</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
@@ -32,7 +32,7 @@
 
             <div class="shouhin-container">
                 <div class="shouhin">
-                    <img src="./img/chocolate.png" alt="画像" width="117px" height="135px">
+                    <img src="../img/chocolate.png" alt="画像" width="117px" height="135px">
                     <div>【チョコレート味３㎏】</div>
                     <div class="price">6,990円</div>
                     <button class="cartbutton" type="button">カートに入れる</button>

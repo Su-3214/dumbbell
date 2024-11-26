@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>支払確認</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
@@ -12,15 +12,15 @@
         THE・脳筋
             <input type="button" type="submit" value="購入履歴">
             <input type="button" type="submit" value="ログアウト">
-            <input type="image" src="./img/button.png" alt="画像ボタン" 
+            <input type="image" src="../img/button.png" alt="画像ボタン" 
             width="30" height="30" >
-            <input type="image" src="./img/cart.png" alt="画像ボタン" 
+            <input type="image" src="../img/cart.png" alt="画像ボタン" 
             width="30" height="30" >
         </div>
         <br>
         <div class="item">
             <span class="dot">・</span>
-            <img src="./img/chocolate.png" alt="画像" width="75px" height="100px">
+            <img src="../img/chocolate.png" alt="画像" width="75px" height="100px">
             <div class="details">
                 <div>【チョコレート味３㎏】</div>
                 <div class="price">6,990円</div>
@@ -58,6 +58,6 @@
         <button class="back" type="button">戻る</button>
         <button class="touroku" type="button">購入手続きへ進む</button>
     </div>
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

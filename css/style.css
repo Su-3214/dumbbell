@@ -34,6 +34,18 @@ body {
     overflow-y: auto; 
 }
 
+.container3 {
+    width: 420px;  
+    height: 667px;
+    background-color: #F3EEBC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 420px;
+    overflow-y: auto; 
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -221,18 +233,24 @@ h1, h2 {
 
 }
 
+.label-container5 {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 10px;  
+}
+
 .textbox {
-    width: 345px; 
+    width: 370px; 
     height: 20px;
     padding: 5px; 
     border-radius: 4px; 
     border: 1px solid #ccc; 
     background-color: #fff; 
-    margin-left: 1px;
+    margin-left: 10px;
 }
 
 .textbox2 {
-    width: 348px; 
+    width: 370px; 
     height: 30px;
     padding: 5px; 
     border-radius: 4px; 
@@ -512,3 +530,110 @@ h1, h2 {
     cursor: pointer;
     border: 2px solid #000000; 
 }
+
+/*　商品詳細の文章 */
+.bun{
+    margin-left: 35px;
+}
+
+/* 商品詳細の赤文字部分 */
+.akamozi{
+    margin-left: 58px;
+    color: red;
+}
+
+/* 商品詳細画像　*/
+.sessyugazou{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+/*　お買い物に戻るボタン　*/
+.incart {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #484847;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #000000; 
+}
+
+/* 管理者ログイン画面　*/
+.loginmessage{
+    margin-left: 15px;
+}
+
+/*　管理者トップ　*/
+.Sitiran{
+    margin-right: 10px;
+    background-color: #ffffff;   
+}
+
+.Kitiran{
+    background-color: #ffffff; 
+}
+
+.skid{
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.Pass{
+    margin-left: 5px;
+    margin-right: 9px;
+}
+
+.jusyo{
+    margin-left: 7px;
+    margin-right: 12px;
+}
+
+.tbutton{
+    margin-left: 65px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.shbutton{
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.modoru{
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+/*　商品変更　*/
+.shouhinid{
+    margin-left: 3px;
+}
+
+.shouhinname{
+    margin-left: 3px;
+}
+
+.kakaku{
+    margin-left: 20px;
+}
+
+.zaiko{
+    margin-left: 20px;
+}
+
+
+

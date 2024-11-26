@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>購入履歴</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
@@ -15,7 +15,7 @@
 
         <hr class="dotted-line">
         <div class="item">
-            <img src="./img/chocolate.png" alt="画像" width="75px" height="100px">
+            <img src="../img/chocolate.png" alt="画像" width="75px" height="100px">
             <div class="details">
                 <div>【チョコレート味３㎏】</div>
                 <div class="price">6,990円</div>

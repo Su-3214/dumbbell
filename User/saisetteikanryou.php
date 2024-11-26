@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新規会員登録</title>
-    <link rel="stylesheet" href="style.css">
+    <title>再設定完了</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="container">
@@ -12,13 +12,13 @@
         <br><br><br><br><br>
         <br><br><br>
         <h2>
-            購入手続きが<br>
+            パスワードの再設定が<br>
             完了しました
         </h2>
         <br><br><br><br><br>
         <br><br><br><br><br>
 
-        <button class="top" type="button">トップページ</button>
+        <button class="tologin" type="button">ログイン画面へ</button>
     </div>
 </body>
 </html>
