@@ -42,10 +42,10 @@
     <div class="tsh">
         <button type="submit" name="touroku" class="tbutton">登録</button>
         <button type="submit" name="sakujo" class="shbutton">削除</button>
-        <button type="submit" name="henkou" class="shbutton">変更</button>
+        <button type="submit" name="henkou" class="shbutton" onclick="window.location.href='Shenkoukakunin.php'">変更</button>
     </div>
 
-    <button type="submit" name="back" class="modoru">戻る</button>
+    <button type="submit" name="back" class="modoru" onclick="window.location.href='kanrisya_shouhin.php'">戻る</button>
 
     </div>
 </body>

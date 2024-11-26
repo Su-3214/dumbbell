@@ -25,7 +25,7 @@ if (isset($_POST['rogin_back'])) {
         <br><br><br><br><br>
         <br><br><br><br><br>
 
-        <button class="tologin" type="button">ログイン画面へ</button>
+        <button class="tologin" type="button" onclick="window.location.href='login.php'">ログイン画面へ</button>
     </div>
 </body>
 

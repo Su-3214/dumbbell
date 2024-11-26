@@ -10,7 +10,7 @@
     <div class="container3">
         <div class="header">
             THE・脳筋　　　　　管理者　　　　　
-                <input type="button" type="submit" value="ログアウト">
+                <input type="button" type="submit" value="ログアウト" onclick="window.location.href='kanrisyalogin.php'">
         </div>
         <h3>会員一覧</h3>
         会員ID　
@@ -22,6 +22,8 @@
         Pass　
 
         住所　
+
+        <button type="submit" name="back" class="modoru" onclick="window.location.href='kanrisyatop.php'">戻る</button>
             
     </div>
 </body>

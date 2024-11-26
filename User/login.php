@@ -30,6 +30,11 @@
         
         <input type="checkbox" name="example2" value="1">ログインしたままにする
 
+        <hr class="dotted-line">
+        <h3>まだ会員登録されていない方</h3>
+        <p>初めてご利用の方は、こちらから会員登録すると便利にお買い物ができるようになります。</p>
+        <button class="touroku" type="button" onclick="window.location.href='shinkitouroku.php'">新規会員登録</button>
+
     </div>
     
 </body>
