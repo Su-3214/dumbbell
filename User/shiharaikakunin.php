@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="header">
-        THE・脳筋
+        <h3 onclick="window.location.href='shouhinitiran.php'" >THE・脳筋</h3>
             <input type="button" type="submit" value="購入履歴" onclick="window.location.href='kounyuurireki.php'">
             <input type="button" type="submit" value="ログアウト" onclick="window.location.href='login.php'">
             <input type="image" src="../img/button.png" alt="画像ボタン" 
