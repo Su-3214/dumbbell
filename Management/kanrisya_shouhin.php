@@ -15,12 +15,13 @@
 
         <h3>商品一覧</h3>
         商品ID　
-
+        <button type="submit" name="shensyuu" class="shbutton" onclick="window.location.href='shouhinhenkou.php'">編集/削除</button><br>
         商品名　
-        
+        <button type="submit" name="shensyuu" class="shbutton" onclick="window.location.href='shouhinhenkou.php'">編集/削除</button><br>
         価格　
-        
+        <button type="submit" name="shensyuu" class="shbutton" onclick="window.location.href='shouhinhenkou.php'">編集/削除</button><br>
         在庫　
+        <button type="submit" name="shensyuu" class="shbutton" onclick="window.location.href='shouhinhenkou.php'">編集/削除</button><br>
 
         <button type="submit" name="back" class="modoru" onclick="window.location.href='kanrisyatop.php'">戻る</button>
         
