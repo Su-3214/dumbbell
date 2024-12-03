@@ -12,11 +12,12 @@
         <h3 onclick="window.location.href='shouhinitiran.php'" >THE・脳筋</h3>
             <input type="button" type="submit" value="購入履歴" onclick="window.location.href='kounyuurireki.php'">
             <input type="button" type="submit" value="ログアウト" onclick="window.location.href='login.php'">
-            <input type="image" src="../img/button.png" alt="画像ボタン" 
-            width="30" height="30" onclick="window.location.href='kensaku.php'">
-            <input type="image" src="../img/cart.png" alt="画像ボタン" 
+            <input type="image" src="../img/button.png" alt="検索ボタン" 
+            width="30" height="30" onclick="window.location.href='kensaku.php'" id="search-button">
+            <input type="image" src="../img/cart.png" alt="カートボタン" 
             width="30" height="30" onclick="window.location.href='shiharaikakunin.php'">
         </div>
+
         <br>
         <!-- 1段目 -->
         <div class="shouhin-container">
@@ -64,5 +65,6 @@
             </div>
         </div>
     </div>
+    <script src="../js/script.js"></script>
 </body>
 </html>

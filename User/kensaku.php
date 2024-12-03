@@ -27,7 +27,7 @@
             <div class="mi"><b>味：</b></div>
             <input type="text" name="taste" class="taste" placeholder="プレーン">
         </div>
-        <button class="search" type="button">検索</button>
+        <button class="search" type="button" onclick="window.location.href='kensakukekka.php'">検索</button>
     </div>
 </body>
 </html>

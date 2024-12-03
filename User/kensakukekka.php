@@ -8,15 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            THE・脳筋
-                <input type="button" type="submit" value="購入履歴">
-                <input type="button" type="submit" value="ログアウト">
-                <input type="image" src="./img/button.png" alt="画像ボタン" 
-                width="30" height="30" >
-                <input type="image" src="./img/cart.png" alt="画像ボタン" 
-                width="30" height="30" >
-            </div>
+    <div class="header">
+        <h3 onclick="window.location.href='shouhinitiran.php'" >THE・脳筋</h3>
+            <input type="button" type="submit" value="購入履歴" onclick="window.location.href='kounyuurireki.php'">
+            <input type="button" type="submit" value="ログアウト" onclick="window.location.href='login.php'">
+            <input type="image" src="../img/button.png" alt="画像ボタン" 
+            width="30" height="30" onclick="window.location.href='kensaku.php'">
+            <input type="image" src="../img/cart.png" alt="画像ボタン" 
+            width="30" height="30" onclick="window.location.href='shiharaikakunin.php'">
+        </div>
 
             <div class="kekka">
                 <h2>検索結果</h2>
@@ -43,7 +43,7 @@
                 <h2>X件</h2>
             </div>
 
-            <button class="back" type="button">戻る</button>
+            <button class="back" type="button" onclick="window.location.href='shouhinitiran.php'">戻る</button>
 
 </body>
 </html>
