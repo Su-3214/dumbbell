@@ -22,9 +22,8 @@
             パスワード<br>
         </div>
         <div class="label-container2">
-            <input type="text" name="pass" class="textbox"><br>
+            <input type="password" name="pass" class="textbox"><br>
         </div>
-        <input type="checkbox" name="example" value="0">パスワードを表示する
         
         <button class="login" type="button" onclick="window.location.href='shouhinitiran.php'" >ログイン</button>
         
