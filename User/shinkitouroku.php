@@ -44,7 +44,7 @@ if (isset($_POST['add'])) {
                 パスワード<br>
             </div>
             <div class="label-container2">
-                <input type="text" name="pass" class="textbox"><br>
+                <input type="password" name="pass" class="textbox"><br>
             </div>
 
         <div class="label-container">
