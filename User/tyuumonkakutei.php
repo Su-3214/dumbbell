@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<?
+    if (isset($_POST['top'])) {
+        header("Location: localhost/test/shouhinitiran");
+    }
+    ?>
     <div class="container">
         <h3>THE・脳筋</h3>
         <br><br><br><br><br>
@@ -17,8 +22,9 @@
         </h2>
         <br><br><br><br><br>
         <br><br><br><br><br>
-
-        <button class="top" type="button">トップページ</button>
+        <form action="shouhinitiran.php" method="POST">
+        <button class="top" type="submit" name="top">トップページ</button>
+        </form>
     </div>
 </body>
 </html>

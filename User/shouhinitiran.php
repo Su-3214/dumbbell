@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品一覧</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
+    <?
+    if (isset($_POST['shiharai'])) {
+        header("Location: localhost/test/shiharaikakunin");
+    }
+    if (isset($_POST['rireki'])) {
+        header("Location: localhost/test/kounyuurireki");
+    }
+    if (isset($_POST['logout'])) {
+        header("Location: localhost/test/login");
+    }
+    ?>
     <div class="container">
         <div class="header">
-        THE・脳筋
-            <input type="button" type="submit" value="購入履歴">
-            <input type="button" type="submit" value="ログアウト">
-            <input type="image" src="../img/button.png" alt="画像ボタン" 
-            width="30" height="30" >
-            <input type="image" src="../img/cart.png" alt="画像ボタン" 
-            width="30" height="30" >
+            THE・脳筋
+            <form action="kounyuurireki.php" method="POST">
+            <input type="submit" value="購入履歴" name="rireki">
+            </form>
+            <form action="login.php" method="POST">
+            <input  type="submit" value="ログアウト" name="logout">
+            </form>
+            <!--画像でフォームを送ろうとしてみる-->
+            <input type="image" src="../img/button.png" alt="検索ボタン" width="30" height="30" form = "Find">
+            <form action="kensaku.php" method="POST" id = "Find"></form>
+            
+            <input type="image" src="../img/cart.png" alt="画像ボタン" width="30" height="30">
         </div>
         <br>
         <!-- 1段目 -->
@@ -24,13 +42,15 @@
                 <img src="../img/chocolate.png" alt="画像" width="117px" height="135px">
                 <div>【チョコレート味３㎏】</div>
                 <div class="price">6,990円</div>
-                <button class="cartbutton" type="button">カートに入れる</button>
+                <button class="cartbutton" type="buttom">カートに入れる</button>
             </div>
             <div class="shouhin">
                 <img src="../img/matcha.png" alt="画像" width="117px" height="135px">
                 <div>【濃い抹茶味３㎏】</div>
                 <div class="price">6,990円</div>
-                <button class="cartbutton" type="button">カートに入れる</button>
+                <form action="shiharaikakunin.php" method="POST">
+                    <button class="cartbutton" type="submit" name="shiharai">カートに入れる</button>
+                </form>
             </div>
         </div>
         <!-- 2段目 -->
@@ -65,4 +85,5 @@
         </div>
     </div>
 </body>
+
 </html>

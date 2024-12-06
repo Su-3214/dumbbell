@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<?
+    if (isset($_POST['top'])) {
+        header("Location: localhost/test/shouhinitiran");
+    }
+    ?>
     <div class="container">
         <div class="kounyuurireki">
             <div class="krireki">購入履歴</div>
+            <form action="shouhinitiran.php" method="POST">
             <button type="submit" name="top" class="toppage">トップページ</button>
+            </form>
         </div>
 
         <hr class="dotted-line">

@@ -54,8 +54,8 @@ if (isset($_POST['add'])) {
                 <input type="text" name="adress" class="textbox2"><br><br>
             </div>
 
-            <button type="button">戻る</button>
-            <button type="submit" name="add">この内容で登録する</button>
+            <button type="button" class="login">戻る</button>
+            <button type="submit" class = "login" name="add">この内容で登録する</button>
         </form>
 
     </div>
