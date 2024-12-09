@@ -31,9 +31,9 @@
             <input  type="submit" value="ログアウト" name="logout">
             </form>
             <input type="image" src="../img/button.png" alt="画像ボタン" 
-            width="30" height="30" >
+            width="30" height="30" onclick="window.location.href='kensaku.php'">
             <input type="image" src="../img/cart.png" alt="画像ボタン" 
-            width="30" height="30" >
+            width="30" height="30" onclick="window.location.href='shiharaikakunin.php'">
         </div>
         <br>
         <div class="item">

@@ -10,7 +10,7 @@
     <div class="container3">
         <div class="header">
             THE・脳筋　　　　　管理者　　　　　
-                <input type="button" type="submit" value="ログアウト">
+                <input type="button" type="submit" value="ログアウト" onclick="window.location.href='kanrisyalogin.php'">
         </div>
     
         会員ID：XXXXX<br><br>
@@ -46,10 +46,10 @@
     <div class="tsh">
         <button type="submit" name="touroku" class="tbutton">登録</button>
         <button type="submit" name="sakujo" class="shbutton">削除</button>
-        <button type="submit" name="henkou" class="shbutton">変更</button>
+        <button type="submit" name="henkou" class="shbutton" onclick="window.location.href='Khenkoukakunin.php'">変更</button>
     </div>
 
-    <button type="submit" name="back" class="modoru">戻る</button>
+    <button type="submit" name="back" class="modoru" onclick="window.location.href='kanrisya_kaiin.php'">戻る</button>
 
     </div>
 </body>

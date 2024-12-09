@@ -35,17 +35,18 @@
             
             <input type="image" src="../img/cart.png" alt="画像ボタン" width="30" height="30">
         </div>
+
         <br>
         <!-- 1段目 -->
         <div class="shouhin-container">
             <div class="shouhin">
-                <img src="../img/chocolate.png" alt="画像" width="117px" height="135px">
+                <img src="../img/chocolate.png" alt="画像" width="117px" height="135px" onclick="window.location.href='shousai.php'" >
                 <div>【チョコレート味３㎏】</div>
                 <div class="price">6,990円</div>
                 <button class="cartbutton" type="buttom">カートに入れる</button>
             </div>
             <div class="shouhin">
-                <img src="../img/matcha.png" alt="画像" width="117px" height="135px">
+                <img src="../img/matcha.png" alt="画像" width="117px" height="135px" onclick="window.location.href='shousai.php'">
                 <div>【濃い抹茶味３㎏】</div>
                 <div class="price">6,990円</div>
                 <form action="shiharaikakunin.php" method="POST">
@@ -56,13 +57,13 @@
         <!-- 2段目 -->
         <div class="shouhin-container">
             <div class="shouhin2">
-                <img src="../img/plain.png" alt="画像" width="117px" height="135px">
+                <img src="../img/plain.png" alt="画像" width="117px" height="135px" onclick="window.location.href='shousai.php'">
                 <div>【プレーン味３㎏】</div>
                 <div class="price">6,780円</div>
                 <button class="cartbutton" type="button">カートに入れる</button>
             </div>
             <div class="shouhin2">
-                <img src="../img/darkpeach.png" alt="画像" width="117px" height="135px">
+                <img src="../img/darkpeach.png" alt="画像" width="117px" height="135px" onclick="window.location.href='shousai.php'">
                 <div>【濃いピーチ味３㎏】</div>
                 <div class="price">7,480円</div>
                 <button class="cartbutton" type="button">カートに入れる</button>
@@ -71,19 +72,20 @@
         <!-- 3段目 -->
         <div class="shouhin-container">
             <div class="shouhin3">
-                <img src="../img/kiwi.png" alt="画像" width="117px" height="135px">
+                <img src="../img/kiwi.png" alt="画像" width="117px" height="135px" onclick="window.location.href='shousai.php'">
                 <div>【キウイ味３㎏】</div>
                 <div class="price">6,980円</div>
                 <button class="cartbutton" type="button">カートに入れる</button>
             </div>
             <div class="shouhin3">
-                <img src="../img/sweetpotato.png" alt="画像" width="117px" height="135px">
+                <img src="../img/sweetpotato.png" alt="画像" width="117px" height="135px" onclick="window.location.href='shousai.php'">
                 <div>【さつまいも味３㎏】</div>
                 <div class="price">6,980円</div>
                 <button class="cartbutton" type="button">カートに入れる</button>
             </div>
         </div>
     </div>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

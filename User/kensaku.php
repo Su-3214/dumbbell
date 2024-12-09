@@ -28,16 +28,16 @@
         </div><br><br><br><br><br><br>
         <div class="youso">
             <div class="key"><b>キーワード：</b></div>
-            <input type="textbox" name="keyword" class="keyword"><br>
+            <input type="textbox" name="keyword" class="keyword" placeholder="キーワードを入力"><br>
         </div>
         <div class="youso">
             <div class="kakakutai"><b>価格帯：</b></div>
-            <input type="textbox" name="max" class="max">
-            <div class="kara">～</div><input type="textbox" name="min" class="min"><br>
+            <input type="textbox" name="max" class="max" placeholder="0">
+            <div class="kara">～</div><input type="textbox" name="min" class="min" placeholder="3000"><br>
         </div>
         <div class="youso">
             <div class="mi"><b>味：</b></div>
-            <input type="text" name="taste" class="taste">
+            <input type="text" name="taste" class="taste" placeholder="プレーン">
         </div>
         <form action="kensakukekka.php" method="POST">
         <button class="search" type="submit" name="search">検索</button>

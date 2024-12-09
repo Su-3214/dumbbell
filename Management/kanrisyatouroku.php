@@ -32,10 +32,10 @@
         パスワード<br>
         </div>
         <div class="label-container2">
-            <input type="text" name="pass" class="textbox"><br>
+            <input type="password" name="pass" class="textbox"><br>
         </div>
 
-        <button class="touroku" type="button">管理者登録</button>
+        <button class="touroku" type="button" onclick="window.location.href='tourokukanryou.php'">管理者登録</button>
     </div>
 </body>
 </html>

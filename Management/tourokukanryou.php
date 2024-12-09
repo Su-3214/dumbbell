@@ -17,7 +17,7 @@
         <br><br><br><br><br>
         <br><br><br><br><br>
 
-        <button class="tologin" type="button">ログイン画面へ</button>
+        <button class="tologin" type="button" onclick="window.location.href='kanrisyalogin.php'">ログイン画面へ</button>
     </div>
 </body>
 </html>

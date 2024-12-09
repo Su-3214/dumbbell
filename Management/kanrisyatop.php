@@ -10,14 +10,14 @@
     <div class="container3">
         <div class="header">
             THE・脳筋　　　　　管理者　　　　　
-                <input type="button" type="submit" value="ログアウト">
+                <input type="button" type="submit" value="ログアウト" onclick="window.location.href='kanrisyalogin.php'">
         </div>
 
             <h3>管理者システム</h3>
             <br>
 
-            <button type="submit" name="Sitiran" class="Sitiran">商品一覧</button>
-            <button type="submit" name="Kitiran" class="Kitiran">会員一覧</button>
+            <button type="submit" name="Sitiran" class="Sitiran" onclick="window.location.href='kanrisya_shouhin.php'">商品一覧</button>
+            <button type="submit" name="Kitiran" class="Kitiran" onclick="window.location.href='kanrisya_kaiin.php'">会員一覧</button>
             <br>
             <h3>検索機能</h3>
             商品ID：<input type="text" name="shohinid" class="skid"><br><br>

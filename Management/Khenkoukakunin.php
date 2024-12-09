@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品変更</title>
+    <title>会員変更確認</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -26,7 +26,7 @@
         住所：XX県XX市XX区XXX X-XX-XX<br><br><br>
 
         
-    <button type="submit" name="tozi" class="tozi">閉じる</button>
+    <button type="submit" name="tozi" class="tozi" onclick="window.location.href='kanrisya_kaiin.php'">閉じる</button>
 
     </div>
 </body>

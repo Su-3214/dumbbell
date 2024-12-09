@@ -26,10 +26,10 @@
         パスワード<br>
         </div>
         <div class="label-container2">
-            <input type="text" name="pass" class="textbox"><br>
+            <input type="password" name="pass" class="textbox"><br>
         </div>
 
-        <button class="login" type="button">ログイン</button>
+        <button class="login" type="button" onclick="window.location.href='kanrisyatop.php'">ログイン</button>
     </div>
 </body>
 </html>

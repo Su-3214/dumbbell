@@ -44,7 +44,7 @@ if (isset($_POST['add'])) {
                 パスワード<br>
             </div>
             <div class="label-container2">
-                <input type="text" name="pass" class="textbox"><br>
+                <input type="password" name="pass" class="textbox"><br>
             </div>
 
             <div class="label-container">
@@ -58,6 +58,8 @@ if (isset($_POST['add'])) {
             <button type="submit" class = "login" name="add">この内容で登録する</button>
         </form>
 
+        <button class="back" type="button" onclick="window.location.href='login.php'">戻る</button>
+        <button class="touroku" type="button" onclick="window.location.href='tourokukanryou.php'">この内容で登録する</button>
     </div>
 </body>
 
