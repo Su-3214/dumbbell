@@ -29,18 +29,13 @@
             パスワード<br>
         </div>
         <div class="label-container2">
-            <input type="password" name="pass" class="textbox"><br>
+            <input type="text" name="pass" class="textbox"><br>
         </div>
         <input type="checkbox" name="example" value="0">パスワードを表示する
         <form action="shouhinitiran.php" method="POST">
             <button name="login" class="login" type="submit">ログイン</button>
         </form>
         <input type="checkbox" name="example2" value="1">ログインしたままにする
-
-        <hr class="dotted-line">
-        <h3>まだ会員登録されていない方</h3>
-        <p>初めてご利用の方は、こちらから会員登録すると便利にお買い物ができるようになります。</p>
-        <button class="touroku" type="button" onclick="window.location.href='shinkitouroku.php'">新規会員登録</button>
 
     </div>
 

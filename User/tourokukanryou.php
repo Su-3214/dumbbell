@@ -10,22 +10,17 @@
 
 <body>
 <?php
-if (isset($_POST['rogin_back'])) {
-    header("Location: localhost/test/rogin"); // 遷移先のURLを指定
+if (isset($_POST['login_back'])) {
+    header("Location: localhost/test/login"); // 遷移先のURLを指定
 }
 ?>
     <div class="container">
         <h3>THE・脳筋</h3>
-        <br><br><br><br><br>
-        <br><br><br>
-        <h2>
-            会員登録が<br>
-            完了しました
-        </h2>
-        <br><br><br><br><br>
-        <br><br><br><br><br>
-
-        <button class="tologin" type="button" onclick="window.location.href='login.php'">ログイン画面へ</button>
+        <h3>会員登録が完了しました</h3>
+        <!--ここからForm-->
+        <form action="login.php" method="POST">
+            <button type="submit"  class = "login" name="login_back">ログイン画面へ</button>
+        </form>
     </div>
 </body>
 
